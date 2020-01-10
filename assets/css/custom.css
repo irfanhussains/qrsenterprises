@@ -64,6 +64,7 @@ header{
 	height:140px;
     padding: 10px 15px;
 	transition:all 0.5s;
+	position:absolute;
 }
 .navbar-nav > li > a{
 	font-size:18px;
@@ -85,6 +86,11 @@ header{
 .navbar-collapse.collapse{
 	float:right;
 	padding-right:0;
+	width:100%
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
 }
 .follow{
 	float:right;
@@ -98,7 +104,7 @@ header{
 	width:50%;
 	text-align:right;
 	font-size:18px;
-	padding:15px 15px 15px 15px;
+	padding:38px 15px;
 }
 header.fixed {
 	transition:all 0.5s;
@@ -120,7 +126,7 @@ header.fixed .follow{
 	width:50%;
 }
 header.fixed .top_contact{
-display:none;
+	padding:10px 15px;
 }
 .banner .overlay{
 	background: rgba(0,0,0,0.5);
@@ -133,7 +139,7 @@ display:none;
 	text-shadow: none;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 30%;
     bottom: inherit;
 }
 .banner-text{
@@ -147,11 +153,13 @@ display:none;
 	font-size:66px;
 	text-shadow:3px 2px 0px #000;
 	font-weight:300;
+	margin-bottom:0;
 
 }
 
 .banner-column p{
-	font-size:18px;
+	font-size:20px;
+	font-weight:bold;
 }
 .banner-column .btn-default{
 	margin:10px 0 0 0;
@@ -189,10 +197,14 @@ display:none;
 	background:url(../images/section_bg1.png);
 	background-attachment:fixed;
 	text-align:center;
-	padding:50px 0;
+	padding:0 0 50px 0;
 }
 .welcome h1{
-	text-align:center;
+	text-align: center;
+    margin: 0 0 30px 0;
+    padding: 25px 0;
+    background: #040931;
+	color:#fff;
 }
 .welcome p{
 	font-size:30px;
@@ -203,10 +215,14 @@ display:none;
 }
 .chooseus{
 	text-align:center;
-	padding:50px 0;
+	padding:0 0 50px 0;
 }
 .chooseus h1{
-	text-align:center;
+	text-align: center;
+    margin: 0 0 30px 0;
+    padding: 25px 0;
+    background: #040931;
+	color:#fff;
 }
 .chooseus a{
 	overflow: hidden;
@@ -264,6 +280,11 @@ display:none;
 	color:#fff;
 	font-size:35px;
 }
+.owl1 .owl-nav .fa{
+	color:#980200;
+	font-size:35px;
+}
+
 .owl-carousel .owl-nav button.owl-next{
 	float: right;
     margin-right: -30px;
@@ -277,12 +298,17 @@ display:none;
 }
 .management{
 	text-align:center;
-	padding:50px 0;
+	padding:0 0 50px 0;
 }
 .management h1{
-	text-align:center;
-
+	text-align: center;
+    margin: 0 0 30px 0;
+    padding: 25px 0;
+    background: #040931;
+	color:#fff;
+	position:relative;
 }
+
 .management p{
 	margin-top:40px;
 }
@@ -333,6 +359,9 @@ footer .copy{
 	.navbar-brand{
 		height:50px;
 	}
+	.navbar-nav {
+	    float: none;
+	}
 	.principal{
 		padding:50px 20px;
 	}
@@ -372,6 +401,9 @@ footer .copy{
 	.welcome p {
     font-size: 20px;
 	}
+	.chooseus{
+		padding:50px 30px;
+	}
 }
 @media (max-width: 767px){
 	
@@ -397,7 +429,7 @@ footer .copy{
 		margin:80px 0 0 0;
 	}
 	.navbar-toggle{
-		width:60%;
+		width:96%;
 		text-align:right;
 	}
 	.navbar-collapse.collapse{
