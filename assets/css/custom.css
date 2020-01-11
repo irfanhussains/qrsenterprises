@@ -4,7 +4,7 @@ body{
 }
 a{
 		transition:all 0.5s;
-		color:#050939;
+		color: #fff;
 }
 a:hover, a:focus{
 	opacity:1;
@@ -15,14 +15,14 @@ a:hover, a:focus{
 h1{
 	color:#980200;
 	padding-bottom:10px;
-	font-size:48px;
+	font-size: 36px;
 	font-weight:300;
 	margin-top:0;
-		margin-bottom:40px;
+	margin-bottom:40px;
 }
 h2{
 	color:#605B5C;
-	font-size:36px;
+	font-size: 30px;
 	font-weight:normal;
 }
 h3{
@@ -36,10 +36,10 @@ p{
     color: #fff;
     background-color: #980200;
     border-top: 3px solid #040933;
-	border-radius:0;
-	font-size:14px;
-	font-weight:700;
-	padding:10px 15px;
+    border-radius:0;
+    font-size:14px;
+    font-weight: 300;
+    padding:10px 15px;
 }
 
 .btn-default:hover, .btn-default:focus {
@@ -54,23 +54,25 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  background:rgba(254, 255, 252, 0.7);
   z-index:100;
   transition:all 0.5s;
 }
 
 
 .navbar-brand {
-	height:140px;
-    padding: 10px 15px;
+	height: 140px;
+	padding: 10px 15px;
 	transition:all 0.5s;
 	position:absolute;
+	background: #ffff;
+	margin: 0 0 0 40px;
 }
 .navbar-nav > li > a{
 	font-size:18px;
 	border-top:5px transparent solid;
-	color:#050C43;
+	color: #fff;
 	padding:5px 15px 10px 15px;
+	font-weight: 300;
 }
 .navbar-nav > li.active > a{
 	   background-color: #980200;
@@ -85,8 +87,8 @@ header{
 }
 .navbar-collapse.collapse{
 	float:right;
-	padding-right:0;
-	width:100%
+	padding-right: 40px;
+	width:100%;
 }
 .navbar-nav {
     float: right;
@@ -104,14 +106,20 @@ header{
 	width:50%;
 	text-align:right;
 	font-size:18px;
-	padding:38px 15px;
+	padding: 12px 56px 12px 15px;
+	color: #fff;
 }
 header.fixed {
 	transition:all 0.5s;
 	background:#fff;
 	border-bottom: 2px #980200 solid;
 }
-
+header.fixed .navbar-nav > li > a{
+	color:#040931
+}
+header.fixed .navbar-nav > li.active > a {
+    color: #FFFFFF;
+}
 header.fixed .navbar-collapse{
 }
 header.fixed .navbar-brand{
@@ -126,7 +134,12 @@ header.fixed .follow{
 	width:50%;
 }
 header.fixed .top_contact{
-	padding:10px 15px;
+	padding-top:10px;
+	padding-bottom:10px;	
+	color:#040931;
+}
+header.fixed .top_contact a {
+	color:#040931;
 }
 .banner .overlay{
 	background: rgba(0,0,0,0.5);
@@ -150,16 +163,15 @@ header.fixed .top_contact{
 }
 .banner-column h1{
 	color:#fff;
-	font-size:66px;
+	font-size: 56px;
 	text-shadow:3px 2px 0px #000;
 	font-weight:300;
 	margin-bottom:0;
-
 }
 
 .banner-column p{
-	font-size:20px;
-	font-weight:bold;
+	font-size: 18px;
+	font-weight: 300;
 }
 .banner-column .btn-default{
 	margin:10px 0 0 0;
@@ -207,7 +219,7 @@ header.fixed .top_contact{
 	color:#fff;
 }
 .welcome p{
-	font-size:30px;
+	font-size: 20px;
 	margin-bottom:30px;
 }
 .welcome .btn-default{
@@ -219,9 +231,9 @@ header.fixed .top_contact{
 }
 .chooseus h1{
 	text-align: center;
-    margin: 0 0 30px 0;
-    padding: 25px 0;
-    background: #040931;
+	margin: 0 0 30px 0;
+	padding: 15px 0;
+	background: #040931;
 	color:#fff;
 }
 .chooseus a{
@@ -237,13 +249,13 @@ header.fixed .top_contact{
 }
 .why_box{
 	background:#040933;
-	font-size:30px;
+	font-size: 20px;
 	display:block;
 	color:#fff;
 	border-top:5px #980200 solid;
 	padding:10px 0;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 	margin-bottom:20px;
 }
 .chooseus p{
@@ -316,7 +328,7 @@ header.fixed .top_contact{
 	display:table;
 }
 .management_box p{
-	font-size:24px;
+	font-size: 20px;
 	margin-bottom:30px;
 	color:#980200;
 }
@@ -347,6 +359,10 @@ footer .copy{
 	font-size:12px;
 		float:right;
 		text-align:right;
+			margin-top: 20px;
+}
+footer .copy a{
+	color:#040933;
 }
 @media (max-width: 768px){
 	.navbar-brand > img {
@@ -355,6 +371,8 @@ footer .copy{
 	}
 	.navbar-nav > li > a{
 		font-size:14px;
+		color: #040931;
+		font-weight: 700;
 	}
 	.navbar-brand{
 		height:50px;
@@ -364,6 +382,9 @@ footer .copy{
 	}
 	.principal{
 		padding:50px 20px;
+	}
+	.management{
+			padding:50px 20px;
 	}
 	.owl-nav{
 
@@ -388,10 +409,10 @@ footer .copy{
 		font-size:56px;		
 	}
 	h1{
-		font-size:36px;
+		font-size:30px;
 	}
 	h2{
-		font-size:30px;
+		font-size:24px;
 	}
 	.management_box p {
 		font-size: 20px;
@@ -417,6 +438,7 @@ footer .copy{
 	}
 	.navbar-brand {
     height: 80px;
+	margin:0;
 }
 	.navbar-toggle .fas {
 		font-size: 24px;
@@ -446,7 +468,11 @@ footer .copy{
 		text-align:left;
 		width:auto;
 		border-top:1px #980200 solid;
-		padding:15px 0
+		padding:15px 0;
+		color: #040931;
+	}
+	.top_contact a{
+			color: #040931;
 	}
 	.follow {
 		float:none;
@@ -463,5 +489,7 @@ footer .copy{
 	}
 	.management_box img{
 		max-width:150px;
+	}
+	.owl1{
 	}
 }
