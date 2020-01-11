@@ -67,6 +67,9 @@ header{
 	background: #ffff;
 	margin: 0 0 0 40px;
 }
+.navbar-brand > img {
+    max-height: 100%;
+}
 .navbar-nav > li > a{
 	font-size:18px;
 	border-top:5px transparent solid;
