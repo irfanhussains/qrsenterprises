@@ -368,21 +368,21 @@ footer .copy a{
 	color:#040933;
 }
 .inner_banner{
-		background-position:center center;
+		background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	position: relative;
     height: 500px;
 }
 .inner_banner.about{
-	background:url(../images/aboutBg.jpg);
+	background-image:url(../images/aboutBg.jpg);
 }
 .inner_banner.product{
-	background:url(../images/productBg.jpg);
+	background-image:url(../images/productBg.jpg);
 	background-position:center center;
 }
 .inner_banner.contact{
-	background:url(../images/contactBg.jpg);
+	background-image:url(../images/contactBg.jpg);
 }
 
 .inner_banner h1{
