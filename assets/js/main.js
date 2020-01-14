@@ -87,7 +87,7 @@ $(document).ready(function()
 
                 if(data.status == 'success'){
                     form.fadeOut('fast', function(){
-                        $('.TTWForm-container').append('<p class="success-message">Your enquiry has been successfuly submitted to QRS Enginnering Admin. We will get back to you as soon as possible.<br/> <a href="index.html">Back to Home Page</a></p>');
+                        $('.TTWForm-container').append('<p class="success-message">Your enquiry has been successfuly submitted to QRS Admin. We will get back to you as soon as possible.<br/> <a href="index.html">Back to Home Page</a></p>');
                     });
 
                     /************************************************************************************/
