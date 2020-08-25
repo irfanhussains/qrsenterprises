@@ -437,6 +437,30 @@ footer .copy a{
 .contact_page a{
 	color:#980200;
 }
+table{
+	font-size:14px;
+	border-top:1px #040931 solid;
+	border-left:1px #040931 solid;	
+	width:100%;
+}
+table th{
+	color:#fff;
+	font-weight:300;
+}
+td, th{
+	padding:5px;
+	border-right:1px #040931 solid;
+	border-bottom:1px #040931 solid;	
+	
+}
+td{
+	vertical-align:top;
+	
+}
+thead{
+background:#040931;
+
+}
 @media (max-width: 768px){
 	.navbar-brand > img {
 		display: block;
