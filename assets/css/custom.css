@@ -443,6 +443,11 @@ table{
 	border-left:1px #040931 solid;	
 	width:100%;
 }
+table img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
 table th{
 	color:#fff;
 	font-weight:300;
